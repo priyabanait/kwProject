@@ -16,7 +16,7 @@ export default function Training() {
         }
       />
 
-      <section className="bg-white mt-30 md:pt-24 pb-16 px-4 text-center">
+      <section className="bg-white mt-10 pb-16 px-4 text-center">
         <div className="max-w-6xl mx-auto">
           
           <img src="Keller.png" alt="Gary Keller" width={1800} height={600} className="mx-auto w-full h-auto" />

@@ -15,7 +15,7 @@ const Home = () => {
      <div className="relative">
 <Header></Header>
       {/* Hero Section */}
-<div className="relative min-h-[70vh] md:min-h-screen">
+<div className="relative min-h-[40vh] md:min-h-[100vh]">
   <div className="absolute inset-0">
     <img
       src="kwbg-image.jpg"
@@ -27,7 +27,7 @@ const Home = () => {
 
   {/* Hero Content */}
   <div className="relative z-10 flex flex-col items-center justify-center min-h-[40vh] md:min-h-[100vh] px-4 ">
-    <h1 className="text-sm md:text-4xl font-bold text-white mb-4 md:mb-8 mt-100 md:mt-60">
+    <h1 className="text-sm md:text-4xl font-bold text-white mb-4 md:mb-8 md:mt-60">
       ONE MOVE COULD SHAPE YOUR FUTURE
     </h1>
 
@@ -71,7 +71,7 @@ const Home = () => {
 </div>
 
       {/* Image Grid Section */}
-      <div className="px-4 md:py-10 py-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-1 md:gap-4 mt-40 lg:mt-32">
+      <div className="px-4 md:py-10 py-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-1 md:gap-4 mt-50 lg:mt-32">
         {[
           { label: "Properties",path:'properties', imageUrl: "https://static.wixstatic.com/media/36a881_58e60526563049da91b5a702cb9995ac~mv2.png/v1/fill/w_230,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.png" },
           { label: "Market Center",path:'marketCenter', imageUrl: "https://static.wixstatic.com/media/36a881_63ae150a87e247f4910718ae270a72c0~mv2.png/v1/fill/w_230,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2.png" },
@@ -276,7 +276,7 @@ const Home = () => {
 </div>
 
      <div className="text-center">
-  <p className="text-xl md:text-4xl font-bold mb-2">$191K</p>
+  <p className="text-xl md:text-4xl font-bold mb-2">191K</p>
   <hr className="max-w-[200px] mx-auto border-t border-gray-400 my-2" />
   <p className="text-[0.8rem]">Real Estate Agents</p>
   <p className="text-[0.8rem] text-gray-600">Worldwide</p>
@@ -284,7 +284,7 @@ const Home = () => {
 
       {/* Stat 4 */}
      <div className="text-center">
-  <p className="text-xl md:text-4xl font-bold mb-2">$1002</p>
+  <p className="text-xl md:text-4xl font-bold mb-2">1002</p>
   <hr className="max-w-[200px] mx-auto border-t border-gray-400 my-2" />
   <p className="text-[0.8rem]">Market Centers</p>
   <p className="text-[0.8rem] text-gray-600">Worldwide</p>
