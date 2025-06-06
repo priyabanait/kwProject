@@ -198,7 +198,7 @@ src="kwbg-image.jpg"
 image='properties.png'></Box>
        
  
-<div className="grid grid-cols-2 md:grid-cols-5 md:mt-40 mt-50 gap-4 text-[10px] md:text-xs w-full max-w-6xl px-4 md:px-40">
+<div className="grid grid-cols-2 md:grid-cols-5 md:mt-40 mt-20 gap-4 text-[10px] md:text-xs w-full max-w-6xl px-4 md:px-40">
   <select className="text-[0.6rem] leading-tight">
     <option>PROPERTY TYPE</option>
   </select>

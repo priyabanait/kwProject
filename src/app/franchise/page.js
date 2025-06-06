@@ -17,7 +17,7 @@ const franchise = () => {
       ></Box>
 
       {/* Intro Text */}
-      <main className="px-4 py-6 md:mt-56 mt-50">
+      <main className="px-4 py-6 md:mt-32 mt-10">
         <div className="mx-auto text-center">
          <h1 className="text-xl md:text-3xl font-light text-gray-800">
   WE WANT YOU TO <span className="text-red-800">LIVE A BIG LIFE</span>

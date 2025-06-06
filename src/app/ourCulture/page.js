@@ -109,7 +109,7 @@ SUCCESS: RESULTS THROUGH PEOPLE`
       />
 
       {/* Intro Text */}
-      <main className="px-4 py-6 md:mt-24 mt-50">
+      <main className="px-4 mt-10">
         <div className="mx-auto text-center">
        <span
   style={{ 
